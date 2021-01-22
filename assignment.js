@@ -1,3 +1,8 @@
+// https://github.com/samiasultana/assignment-js
+
+
+// Problem 1: kilometerToMeter
+
 function kilometerToMeter(km) {
     var meter = km * 1000;
     return meter;
@@ -8,6 +13,7 @@ console.log(result);
 
 
 
+// Problem 2: budgetCalculator
 
 function budgetCalculator(price, item) {
     var result = (price * item);
@@ -22,6 +28,7 @@ console.log(total);
 
 
 
+// Problem 3: hotelCost
 
 function hotelCost(nights) {
     var budget = 0;
@@ -49,6 +56,7 @@ console.log(result);
 
 
 
+// Problem 4: megaFriend
 
 function megaFriend(names) {
     var largeFriend = [0];
@@ -63,5 +71,3 @@ function megaFriend(names) {
 var names = ["Dumpa", "Mohammad", "Sabbir", "Bhuiyan", "Pecha", "Mimi", "Samia"];
 var result = megaFriend(names);
 console.log(result);
-
-
